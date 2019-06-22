@@ -1,5 +1,5 @@
 # arduino_switch
-this code is to test **switch code**
+code is to test **switch code**
 
 ## parts list
 
