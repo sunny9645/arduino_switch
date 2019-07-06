@@ -15,8 +15,8 @@ this code is to test **switch code**
 void setup() {
   // put your setup code here, to run once:
  Serial.begin(9600);
- pinMode(13,OUTPUT);
- pinMode(3,INPUT_PULLUP);
+ pinMode(8,OUTPUT);
+ pinMode(5,INPUT_PULLUP);
 }
 
 void loop() {
@@ -28,11 +28,11 @@ void loop() {
 
  if(value==0){
  // LED on
- digitalWrite(13,HIGH); 
+ digitalWrite(8,HIGH); 
  Serial.println("LED ON");
  }else{
   // LED off
-  digitalWrite(13,LOW);
+  digitalWrite(8,LOW);
   Serial.println("LED OFF");
   
 }
